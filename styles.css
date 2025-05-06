@@ -24,7 +24,7 @@
   height: auto;
 }
 
-/* Container styling */
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -34,7 +34,7 @@
   align-items: center;
 }
 
-/* Header content styling */
+
 .title {
   font-size: 2.25rem; 
   font-weight: 700;
@@ -63,7 +63,7 @@
   max-width: 60px;
 }
 
-/* Form styling */
+
 .form {
   display: flex;
   flex-direction: column;
@@ -76,7 +76,7 @@
   border: 1px solid #E5E7EB;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-  position: relative; /* Added for positioning context */
+  position: relative; 
 }
 
 .form input {
@@ -94,7 +94,7 @@
   box-shadow: 0 0 0 3px rgba(0, 0, 255, 0.1);
 }
 
-/* Button container styling */
+
 .button-container {
   width: 100%;
   max-width: 400px;
@@ -116,7 +116,7 @@
   background-color: #1D4ED8;
 }
 
-/* Confidentiality text styling */
+
 .confidentiality-text {
   color: #6B7280;
   font-size: 0.85rem;
@@ -125,7 +125,7 @@
   text-align: center;
 }
 
-/* Footer styling */
+
 .author-info {
   text-align: center;
   padding: 2rem;
@@ -142,8 +142,7 @@
   text-decoration: underline;
 }
 
-/* Responsive design - Desktop view */
-/* Remove the absolute positioning for desktop */
+
 @media (min-width: 768px) {
   .form {
     position: relative;
@@ -151,37 +150,37 @@
   }
   
   .button-container {
-    position: static; /* Remove absolute positioning */
-    max-width: 100%; /* Full width */
-    margin-right: 0; /* Reset margin */
+    position: static; 
+    max-width: 100%; 
+    margin-right: 0; 
   }
   
   .confidentiality-text {
-    position: static; /* Remove absolute positioning */
-    transform: none; /* Remove transform */
-    width: 100%; /* Full width */
-    text-align: center; /* Center text */
-    padding-left: 0; /* Remove padding */
-    margin-top: 0.5rem; /* Add some spacing */
+    position: static; 
+    transform: none; 
+    width: 100%; 
+    text-align: center; 
+    padding-left: 0; 
+    margin-top: 0.5rem; 
   }
 }
 
-/* Update the confidentiality text styling */
+
 .confidentiality-text {
   color: #6B7280;
-  font-size: 0.875rem; /* Slightly larger than 0.85rem */
+  font-size: 0.875rem; 
   width: 100%;
   max-width: 400px;
   text-align: center;
-  line-height: 1.5; /* Better line spacing */
+  line-height: 1.5; 
 }
 
-/* Optional: Adjust the form input and button to match reference better */
+
 .form input {
-  margin-bottom: 0.5rem; /* Add spacing between input and button */
+  margin-bottom: 0.5rem; 
 }
 
 .form button {
-  font-weight: 500; /* Slightly lighter font weight */
-  margin-bottom: 0.5rem; /* Add spacing between button and text */
+  font-weight: 500; 
+  margin-bottom: 0.5rem; 
 }
