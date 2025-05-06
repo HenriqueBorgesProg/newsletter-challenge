@@ -46,8 +46,8 @@ Este projeto é uma solução para o desafio **"Newsletter Signup"** do [devChal
 ![Preview do projeto](thumbnail.jpg)
 
 ## 🔗 Links Úteis
-- [Desafio Original](https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY)
-- [Meu Perfil no devChallenges](https://devchallenges.io/portfolio/HenriqueBorgesProg)
+- [Desafio Original](https://devchallenges.io/challenge/join-our-newsletter)
+- [Meu Perfil no devChallenges](https://devchallenges.io/profile/df9079cc-ffb5-42e3-9ffc-9b19ab6f6cb5)
 - [Outros Projetos](https://github.com/HenriqueBorgesProg)
 
 Feito com ❤️ por [Henrique Borges](https://github.com/HenriqueBorgesProg) | Desafio por [devChallenges.io](https://devchallenges.io)
