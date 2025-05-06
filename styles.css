@@ -1,0 +1,187 @@
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 16px;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: black;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.logo-img {
+  width: 24px;
+  height: auto;
+}
+
+/* Container styling */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header content styling */
+.title {
+  font-size: 2.25rem; 
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.container-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.container-header p {
+  font-size: 1rem; 
+  font-weight: 400;
+  color: #6B7280; 
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.logo {
+  margin-bottom: 1rem;
+  max-width: 60px;
+}
+
+/* Form styling */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  position: relative; /* Added for positioning context */
+}
+
+.form input {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.75rem 1rem;
+  border: 1px solid #D1D5DB;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.form input:focus {
+  border-color: blue;
+  box-shadow: 0 0 0 3px rgba(0, 0, 255, 0.1);
+}
+
+/* Button container styling */
+.button-container {
+  width: 100%;
+  max-width: 400px;
+}
+
+.form button {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 12px;
+  background-color: #2563EB;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.form button:hover {
+  background-color: #1D4ED8;
+}
+
+/* Confidentiality text styling */
+.confidentiality-text {
+  color: #6B7280;
+  font-size: 0.85rem;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Footer styling */
+.author-info {
+  text-align: center;
+  padding: 2rem;
+  color: #6B7280;
+  font-size: 0.875rem;
+}
+
+.author-info a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.author-info a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design - Desktop view */
+/* Remove the absolute positioning for desktop */
+@media (min-width: 768px) {
+  .form {
+    position: relative;
+    padding: 2rem;
+  }
+  
+  .button-container {
+    position: static; /* Remove absolute positioning */
+    max-width: 100%; /* Full width */
+    margin-right: 0; /* Reset margin */
+  }
+  
+  .confidentiality-text {
+    position: static; /* Remove absolute positioning */
+    transform: none; /* Remove transform */
+    width: 100%; /* Full width */
+    text-align: center; /* Center text */
+    padding-left: 0; /* Remove padding */
+    margin-top: 0.5rem; /* Add some spacing */
+  }
+}
+
+/* Update the confidentiality text styling */
+.confidentiality-text {
+  color: #6B7280;
+  font-size: 0.875rem; /* Slightly larger than 0.85rem */
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  line-height: 1.5; /* Better line spacing */
+}
+
+/* Optional: Adjust the form input and button to match reference better */
+.form input {
+  margin-bottom: 0.5rem; /* Add spacing between input and button */
+}
+
+.form button {
+  font-weight: 500; /* Slightly lighter font weight */
+  margin-bottom: 0.5rem; /* Add spacing between button and text */
+}
