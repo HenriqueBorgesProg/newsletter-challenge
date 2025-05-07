@@ -2,7 +2,7 @@
 
 
 ## 📸 Preview
-![Preview do projeto]((https://github.com/user-attachments/assets/b3941f46-17c3-48b8-82fe-7c07c4b073e0))
+![Image](https://github.com/user-attachments/assets/b3941f46-17c3-48b8-82fe-7c07c4b073e0)
 
 ## 📝 Descrição do Projeto
 Este projeto é uma solução para o desafio **"Newsletter Signup"** do [devChallenges.io](https://devchallenges.io). O objetivo era criar uma página de inscrição em newsletter com design responsivo, seguindo um layout fornecido.
